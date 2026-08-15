@@ -1,0 +1,15 @@
+{
+  "name": "unhue",
+  "version": "0.1.0",
+  "description": "js13kGames 2026 entry — a top-down game about a unicorn returning color to the world",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npx serve ."
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "terser": "^5.37.0"
+  }
+}
